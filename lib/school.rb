@@ -15,7 +15,7 @@ class School
     @roster[grade_to_select]
   end
   def sort
-    @roster.each_value |x|
+    @roster.each_value |students|
       x.sort!
     end
   end
