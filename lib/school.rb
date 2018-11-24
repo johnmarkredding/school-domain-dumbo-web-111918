@@ -15,6 +15,8 @@ class School
     @roster[grade_to_select]
   end
   def sort
+    @roster.each_value |x|
     
+    end
   end
 end
