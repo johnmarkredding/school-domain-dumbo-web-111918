@@ -12,7 +12,7 @@ class School
     @roster[grade] ||= []
     @roster[grade] << student
   end
-  def grade
-    
+  def grade(grade_to_select)
+    grade_to_select
   end
 end
