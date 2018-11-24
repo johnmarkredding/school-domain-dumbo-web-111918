@@ -16,7 +16,7 @@ class School
   end
   def sort
     @roster.each_value |students|
-      x.sort!
+      students.sort!
     end
   end
 end
