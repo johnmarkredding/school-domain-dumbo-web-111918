@@ -14,5 +14,9 @@ class School
   def grade(grade_to_select)
     @roster[grade_to_select]
   end
-
+  def sort()
+    @roster.each_value |students|
+      students.sort!
+    end
+  end
 end
